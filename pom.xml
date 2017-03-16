@@ -9,13 +9,13 @@
 		<snapshotRepository>
 			<id>user-snapshot</id>
 			<name>User Porject Snapshot</name>
-			<url>http://mytest111.cloudapp.net:9081/repository/maven-snapshots/</url>
+			<url>http://192.168.0.109:8082/nexus/content/repositories/zhongyidev/</url>
 			<uniqueVersion>true</uniqueVersion>
 		</snapshotRepository>
 		<repository>
 			<id>user-release</id>
 			<name>User Porject Release</name>
-			<url>http://mytest111.cloudapp.net:9081/repository/maven-releases/</url>
+			<url>http://192.168.0.109:8082/nexus/content/repositories/releases/</url>
 		</repository>
 	</distributionManagement>
 </project>
